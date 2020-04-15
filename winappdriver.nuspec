@@ -9,7 +9,7 @@
     <title>WinAppDriver</title>
     <authors>Microsoft</authors>
     <projectUrl>https://github.com/microsoft/WinAppDriver</projectUrl>
-    <copyright>2016</copyright>
+    <copyright>2016 Microsoft</copyright>
     <licenseUrl>https://github.com/microsoft/WinAppDriver/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/microsoft/WinAppDriver</projectSourceUrl>
