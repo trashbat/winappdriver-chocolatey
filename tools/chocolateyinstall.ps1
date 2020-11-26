@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/microsoft/WinAppDriver/releases/download/v1.1.1/WindowsApplicationDriver.msi'
+$url = 'https://github.com/microsoft/WinAppDriver/releases/download/v1.2.1/WindowsApplicationDriver_1.2.1.msi'
 
 If ([Environment]::OSVersion.Version -lt (New-Object 'Version' 10,0)) {
   Write-Error "WinAppDriver requires Windows 10."
@@ -13,7 +13,7 @@ $packageArgs = @{
   fileType       = 'MSI'
   url            = $url
   softwareName   = 'Windows Application Driver'
-  checksum       = 'E659B59CD5E4F20D60F2B18D14F9B18865C85D5A2F2FEB3883954E2DD0638F5D'
+  checksum       = 'A76A8F4E44B29BAD331ACF6B6C248FCC65324F502F28826AD2ACD5F3C80857FE'
   checksumType   = 'sha256'
   silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes = @(0, 3010, 1641)
