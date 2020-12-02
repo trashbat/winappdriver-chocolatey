@@ -17,6 +17,7 @@
     <tags>winappdriver</tags>
     <summary>Windows Application Driver</summary>
     <description>Windows Application Driver (WinAppDriver) is a service to support Selenium-like UI Test Automation on Windows Applications. This service supports testing **Universal Windows Platform (UWP)**, **Windows Forms (WinForms)**, **Windows Presentation Foundation (WPF)**, and **Classic Windows (Win32)** apps on **Windows 10 PCs**.</description>
+    <releaseNotes>https://github.com/microsoft/WinAppDriver/releases/tag/v1.2.1</releaseNotes>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.1.0" />
     </dependencies>
